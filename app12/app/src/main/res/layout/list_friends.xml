@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:paddingLeft="15dp"
+	android:paddingRight="15dp"
+	android:descendantFocusability="beforeDescendants">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:drawableBottom="@android:color/black"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/card_background_selector"
+		android:paddingTop="10dp"
+		android:padding="10dp"
+		android:id="@+id/linearLayout"
+		android:weightSum="1">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="268dp"
+			android:layout_height="match_parent">
+
+			<ImageView
+				android:layout_width="70dp"
+				android:layout_height="70dp"
+				android:id="@+id/userimg"
+				android:background="#939393" />
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="163dp"
+				android:padding="5dp"
+				android:layout_height="wrap_content">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:text="Daniel M. Kuhn"
+					android:textSize="18dp"
+					android:id="@+id/username" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text="Minha frase de perfil, testando a frase para ver até que tamanho não desconfigura."
+					android:textSize="16dp"
+					android:id="@+id/userquote" />
+
+			</LinearLayout>
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Seguindo"
+		android:id="@+id/btfollow"
+		android:layout_gravity="right|center_vertical" />
+
+</FrameLayout>

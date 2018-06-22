@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/dani/Área de Trabalho/app12/aSpellChecker/build/intermediates/res/merged/debug/xml/spellchecker.xml",
+        "source": "/home/dani/Área de Trabalho/app12/aSpellChecker/src/main/res/xml/spellchecker.xml"
+    },
+    {
+        "merged": "/home/dani/Área de Trabalho/app12/aSpellChecker/build/intermediates/res/merged/debug/xml/prefs.xml",
+        "source": "/home/dani/Área de Trabalho/app12/aSpellChecker/src/main/res/xml/prefs.xml"
+    }
+]

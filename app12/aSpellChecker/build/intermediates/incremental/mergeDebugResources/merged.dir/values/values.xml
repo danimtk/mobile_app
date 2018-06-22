@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dicts">
+        <!--<item name="af">Afrikaans</item>
+        <item name="am">Amharic አማርኛ</item>
+        <item name="ar">Arabic عربي</item>
+        <item name="ast">Asturian Asturianu </item>
+        <item name="az">Azerbaijani	Azərbaycanca</item>
+        <item name="be">Belarusian Беларускі</item>
+        <item name="bg">Bulgarian Български</item>
+        <item name="bn">Bengali বাংলা</item>
+        <item name="br">Breton</item>
+        <item name="ca">Catalan</item>
+        <item name="cs">Czech	Čeština</item>
+        <item name="csb">Kashubian Kaszëbsczi</item>
+        <item name="cy">Welsh</item>
+        <item name="da">Danish Dansk</item>
+        <item name="de">German</item>
+        <item name="el">Greek</item>
+        <item name="en">English</item>
+        <item name="eo">Esperanto</item>
+        <item name="es">Spanish Español</item>
+        <item name="et">Estonian</item>-->
+        <item name="sv">Swedish</item>
+    </string-array>
+    <string-array name="dictsVals">
+     <!--<item name="af">af</item>
+     <item name="am">am</item>
+     <item name="ar">ar</item>
+     <item name="ast">as</item>
+     <item name="az">az</item>
+     <item name="be">be</item>
+     <item name="bg">bg</item>
+     <item name="bn">bn</item>
+     <item name="br">br</item>
+     <item name="ca">ca</item>
+     <item name="cs">cs</item>
+     <item name="csb">cs</item>
+     <item name="cy">cy</item>
+     <item name="da">da</item>
+     <item name="de">de</item>
+     <item name="el">el</item>
+     <item name="en">en</item>
+     <item name="eo">eo</item>
+     <item name="es">es</item>
+     <item name="et">et</item> -->
+     <item name="sv">sv</item>
+ </string-array>
+    <string-array name="updateInterval">
+        <item name="1000">Every 1 second</item>
+        <item name="5000">Every 5 seconds</item>
+        <item name="30000">Every 30 seconds</item>
+        <item name="60000">Every 1 minute</item>
+        <item name="300000">Every 5 minutes</item>
+    </string-array>
+    <string-array name="updateIntervalValues">
+        <item name="1000">1000</item>
+        <item name="5000">5000</item>
+        <item name="30000">30000</item>
+        <item name="60000">60000</item>
+        <item name="300000">300000</item>
+    </string-array>
+    <string name="name">Aspell Swedish spell checker</string>
+    <string name="settings">Aspell Swedish spell checker settings</string>
+    <string name="subtype">Swedish</string>
+</resources>

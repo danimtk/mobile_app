@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">TothApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="action_loggout">Log Out</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Bem vindo ao TothApp!</string>
+    <string name="slide_1_desc">Tome nota facilmente dos trechos e frases que lhe inspiram</string>
+
+    <string name="slide_2_title">Conhecimento do dia</string>
+    <string name="slide_2_desc">Uma inspiração para você</string>
+
+    <string name="slide_3_title">Em qualquer lugar</string>
+    <string name="slide_3_desc">Você pode anotar trechos e frases sem estar conectado. Depois a gente sincroniza!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="action_del">Delete</string>
+    <string name="action_edit">Edit</string>
+
+
+    <string name="dialog_titulo_exclusao">Delete quote</string>
+
+    <string name="dialog_mensagem_exclusao">Are you sure to delete this quote?</string>
+
+    <string name="dialog_titulo_sair">Log Out of TothApp?</string>
+
+    <string name="dialog_mensagem_sair">Do you want to quit? To return , you will need connection.</string>
+    <string name="sair">Log Out</string>
+    <string name="cancelar">Cancel</string>
+
+    <string name="sim">Yes</string>
+    <string name="nao">No</string>
+
+
+    <string name="prompt_email">E-mail or Phone</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Log In</string>
+    <string name="action_inscrever">Sign Up</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">Preencha este campo</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="frase_inicial">Tome nota facilmente dos trechos e frases que lhe inspiram!</string>
+    <string name="bem_vindo">Welcome to TothApp!</string>
+    <string name="entrar">Log in</string>
+    <string name="cadastrar">Sign Up</string>
+    <string name="compartilhar">Share</string>
+    <string name="conhecimentodia">Knowledge of day</string>
+    <string name="novidades">News quotes</string>
+    <string name="frases">My quotes</string>
+    <string name="seguidores">Following</string>
+    <string name="fbcamera">Camera</string>
+    <string name="fbtexto">Text</string>
+    <string name="fbnovafrase">New quote</string>
+
+</resources>

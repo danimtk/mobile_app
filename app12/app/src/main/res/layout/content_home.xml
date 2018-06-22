@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dani.app12.MainActivity"
+    tools:showIn="@layout/home_main">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="De onde vem a palavra oportunidade?"
+                android:textColor="#333"
+                android:id="@+id/title"
+                android:gravity="left"
+                android:layout_alignParentTop="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Os Romanos tinham o hábito na Antiguidade de dar nome aos ventos. E um vento que eles apreciavam imensamente, que levava o navio em direção ao porto, era chamado de ob portus, o vento oportuno. O que é oportunidade? É quando você pega o vento favorável, aquele que o leva para o porto."
+                android:textColor="#606060"
+                android:id="@+id/frase"
+                android:textSize="18dp"
+                android:gravity="left"
+                android:layout_alignParentTop="true" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Mario Sergio Cortella"
+                android:textColor="#333"
+                android:id="@+id/autor"
+                android:gravity="left"
+                android:layout_alignParentTop="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textSize="19dp"
+                android:text="Qual é a tua obra?"
+                android:textColor="#606060"
+                android:id="@+id/livro"
+                android:gravity="left"
+                android:layout_alignParentTop="true" />
+        </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:background="#107ac1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="3dp"
+                        ></LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:background="#84e3ef"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="3dp"
+                        ></LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:background="#df131e"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="3dp"
+                        ></LinearLayout>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#000"
+                        android:id="@+id/imageButton"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+                    </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:descendantFocusability="beforeDescendants">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:drawableBottom="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:background="@drawable/card_background_selector"
+            android:padding="10dp"
+            android:id="@+id/layoutcitacoes">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="#df131e"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="3dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/imguser"
+                        android:background="#c4c4c4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp">
+                    <TextView
+                        android:id="@+id/nome"
+                        android:layout_marginTop="5dp"
+                        android:textSize="14dp"
+                        android:text="Daniel Matheus Kuhn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Os Romanos tinham o hábito na Antiguidade de dar nome aos ventos. E um vento que eles apreciavam imensamente, que levava o navio em direção ao porto, era chamado de ob portus, o vento oportuno. O que é oportunidade? É quando você pega o vento favorável, aquele que o leva para o porto."
+                android:textColor="#606060"
+                android:id="@+id/frase"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:layout_alignParentTop="true" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textSize="16dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Mario Sergio Cortella"
+                    android:textColor="#333"
+                    android:id="@+id/autor"
+                    android:gravity="left"
+                    android:layout_alignParentTop="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textSize="16dp"
+                    android:text="Qual é a tua obra?"
+                    android:textColor="#606060"
+                    android:id="@+id/livro"
+                    android:gravity="left"
+                    android:layout_alignParentTop="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:layout_centerHorizontal="true"
+                        android:text="Compartilhar"
+                        android:id="@+id/btshare" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+</FrameLayout>
